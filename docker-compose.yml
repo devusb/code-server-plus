@@ -1,0 +1,11 @@
+services:
+  codeserver:
+    image: devusb/code-server-plus:latest
+    user: "1101:1100"
+    restart: unless-stopped
+    ports:
+      - 8100:8080
+    volumes:
+      - /mnt/homes/devusb:/home/coder
+      - /var/run/docker.sock:/var/run/docker.sock
+    command: --auth none --disable-telemetry /home/coder/code-server
