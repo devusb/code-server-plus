@@ -2,6 +2,8 @@ services:
   codeserver:
     image: devusb/code-server-plus:latest
     user: "1101:1100"
+    group_add:
+      - docker
     restart: unless-stopped
     ports:
       - 8100:8080
