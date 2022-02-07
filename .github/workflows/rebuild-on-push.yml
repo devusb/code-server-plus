@@ -1,6 +1,7 @@
 name: rebuild on push
 
-on: push
+on: 
+  push:
     paths-ignore:
       - '.github/workflows/**'
 
