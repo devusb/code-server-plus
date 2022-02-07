@@ -1,8 +1,8 @@
 name: rebuild on push
 
 on: push
-#    paths-ignore:
-#      - '.github/workflows/**'
+    paths-ignore:
+      - '.github/workflows/**'
 
 jobs:
   docker:
