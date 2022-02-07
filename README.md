@@ -1,2 +1,2 @@
 # code-server-plus
-code-server Docker image with additional applicaations (e.g. Ansible, docker-ce-cli..)
+code-server Docker image with additional applications (e.g. Ansible, docker-ce-cli..)

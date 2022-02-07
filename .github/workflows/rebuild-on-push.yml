@@ -4,6 +4,7 @@ on:
   push:
     paths-ignore:
       - '.github/workflows/**'
+      - 'README.md'
 
 jobs:
   docker:
